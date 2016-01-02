@@ -124,12 +124,12 @@ git 的一些列的信息，包括版本代号，更新编号 (用 40 位 sha �
         git remote add origin https://github.com/dotku/learn-git.git
         git push -u origin master
 
-如果能理解前面的内容，这两句就很简单了，就是已经执行过 git init, git add, git commit 之后，想要
-push 代码到 github 上面来，就必须要 git remote add，然后 push 操作，就行了。
+如果能理解前面的内容，这两句就很简单了，就是已经执行过 git init, git add, git commit 之后，  
+想要 push 代码到 github 上面来，就必须要 git remote add，然后 push 操作，就行了。
   
 #### 通过其他的代码仓库里面导入代码
 
-这个是说把别的项目代码通过 URL 方式导入， git 会自动转换其他的版本控制器，比如 subversion 等。
+这个是说把别的项目代码通过 URL 方式导入， git 会自动转换其他的版本控制器，比如 subversion 等。  
 把他们的记录信息转换为 git 所使用的记录信息格式。
 
 ### 实践  

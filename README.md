@@ -138,7 +138,7 @@ git 的一些列的信息，包括版本代号，更新编号 (用 40 位 sha �
 
         1. git fetch， 这个会更新 .git 目录下的内容
         2. git pull, 这个会更新代码文件夹中的内容; 一般我会用 git checkout master, master 是分支号码
-        3. 更改代码，测试
+        3. 更新代码，本地开发测试
         4. git status  检查
         5. git add .  添加代码入库， . 表示所有的, --all 表示包括删除的, <filename> 表示固定的某个文件
         6. git commit -m '更新备注'

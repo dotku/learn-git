@@ -28,7 +28,7 @@ git 不仅仅只是 github, 还有 osc@git, bitbucket 等，都提供了使用 g
     
     Import code
 
-我觉得做技术的，都需要有点耐心，刚刚开始可能云里雾里的，不过多看几遍，多多实践，  
+面对这些代码可能让你觉得恐惧，我觉得做技术的，都需要有点耐心，刚刚开始可能云里雾里的，不过多看几遍，多多实践，  
 就会明白这些东西了。  
   
 这里我帮你翻译讲解一下  
@@ -142,7 +142,8 @@ git 的一些列的信息，包括版本代号，更新编号 (用 40 位 sha �
         4. git status  检查
         5. git add .  添加代码入库， . 表示所有的, --all 表示包括删除的, <filename> 表示固定的某个文件
         6. git commit -m '更新备注'
-        7. git push origin master, origin 表示你的 git 所在的位置, 可以通过 git remote -v，来查看 origin 所代表的 git url 信息，master 是分支代号
+        7. git push origin master, origin 表示你的 git 所在的位置, 可以通过 git remote -v，来查看 
+        origin 所代表的 git url 信息，master 是分支代号
 
 除此之外，还有 git checkout -b 来建立开发分支，还有 git commit --amed -m '修改 commit 信息'，  
 以及 git diff，git merge 等操作用来合并不同的分支，还有 git rsa 密匙管理等，这个可以自行谷歌百度  
